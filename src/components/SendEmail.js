@@ -26,7 +26,7 @@ const SendEmail = () => {
                     <input type="email" name="user_email" id='user_email' className='formInfo'/>
                     <label>Message</label>
                     <textarea name="content" id='content' className='formInfo'></textarea>
-                    <Button type="submit" value="Send">Send</Button>
+                    <Button type="submit" value="Send" id='sendEmail'>Send</Button>
                 </form >
             </div>
         </div>

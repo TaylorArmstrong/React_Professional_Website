@@ -32,11 +32,33 @@
       window.onload = function () {
         document.getElementById('contact_form').addEventListener('submit', function (event) {
           event.preventDefault()
+
           this.contact_number.value = Math.random() * 100000 | 0
           emailjs.sendForm('gmail', 'template_jOibbpRw', this)
-          document.querySelectorAll('input').forEach(x => x.value = '')
-          document.querySelector('textarea').value = ''
-        })
+
+          const sendButtom = document.getElementById('content')
+          let messageSent = document.createElement("div")
+          messageSent.className = "sentSuccess"
+          messageSent.innerHTML = 'Message Sent!'
+          sendAlert()
+
+          function sendAlert() {
+            setTimeout(function () {
+            if (document.body.contains(messageSent)) {
+                window.clearTimeout(removeMessageSentAlert);
+              } else {
+                // insert warningBox after myTextbox
+                sendButtom.parentNode.insertBefore(messageSent, sendButtom.nextSibling)
+                document.querySelectorAll('input').forEach(x => x.value = '')
+                document.querySelector('textarea').value = ''
+              }}, 500)
+          
+            removeMessageSentAlert = window.setTimeout(function () {
+                messageSent.parentNode.removeChild(messageSent);
+                messageSent = -1;
+              }, 2000)
+            }
+          })
       }
     </script>
   </head>
