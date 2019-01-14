@@ -3,7 +3,7 @@ import ProjectInfo from './ProjectInfo.json'
 
 const Projects = () => {
     return (
-        <div className='center'>
+        <div id='projects' className='center'>
             {ProjectInfo.map(x =>
             <div key={x.title} className='tc bg-light-blue br3 pa3 ma2 dib bw2 shadow-5 small' id='ProjectCard'>
                 <div className='f4 lh-copy'><b><u>{x.title}</u></b><br /></div>

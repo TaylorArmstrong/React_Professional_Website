@@ -16,6 +16,12 @@ nav {
   height: 20px;
   width: 20px;
 }
+
+.sidenav_trigger {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+}
 /*
 
 Header Section Customizations
@@ -291,7 +297,3 @@ Multiple Sections
   height: 13px;
   width: auto;
 }
-
-/* h3 {
-  text-align: left;
-} */
