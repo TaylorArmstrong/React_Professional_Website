@@ -244,17 +244,20 @@ p.modal-text {
     display: inline-block;
   }
   #about {
-    margin-bottom: 160px;
+    margin-bottom: 200px;
   }
   .resumeButton {
     width: 118px;
   }
   .aboutTextContainer {
-  float: right;
-  margin-top: -200px;
-  padding: 50px;
-  width: 75%;
-}
+    float: right;
+    margin-top: -200px;
+    padding: 50px;
+    width: 75%;
+  }
+  #aboutIcons {
+    margin-left: 103px;
+  }
 }
 
 /*
