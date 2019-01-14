@@ -24,6 +24,19 @@ nav {
   color:white;
 }
 
+#personalLogo {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 50%;
+  width: 30px;
+  z-index: 3;
+}
+@media screen and (min-width: 993px) {
+#personalLogo {
+  margin-left: 10px;
+}
+}
+
 /*
 
 Header Section Customizations

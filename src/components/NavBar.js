@@ -8,13 +8,14 @@ const NavBar = () => {
     return (
         <div>
             <Navbar className='hide-on-med-and-down' right>
-                <NavItem>myLogo</NavItem>
+                
                 <NavItem href='#top' >WELCOME</NavItem>
                 <NavItem href='#projects' >PROJECTS</NavItem>
                 <NavItem href='#about' >ABOUT</NavItem>
                 <NavItem href='#technologies' >TECHNOLOGIES</NavItem>
                 <NavItem href='#contact' >CONTACT</NavItem>
             </Navbar>
+            <img src={myLogo} id='personalLogo' />
             <nav className='hide-on-large-only'></nav>
             <SideNav 
                 trigger={<a href="/"><i className="sidenav_trigger material-icons hide-on-large-only" >menu</i></a>}
