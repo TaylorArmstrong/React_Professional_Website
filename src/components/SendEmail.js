@@ -16,7 +16,7 @@ const SendEmail = () => {
                 <a href='http://www.linkedin.com/in/taylorarmstrong13'><i className='fab fa-linkedin contactIcon' ></i></a>
                 <a id='builtInColoradoAboutIcon' href='https://www.builtincolorado.com/member/tarmstrong1327/112684' title='builtincolorado'><img src={builtIN} alt='builtInColorado' className='responsive-img contactIcon' id='builtInLogo'/></a>
             </div>
-            </div>
+        </div>
             <div className='container'>
                 <form id="contact_form" >
                     <input type="hidden" name="contact_number" />

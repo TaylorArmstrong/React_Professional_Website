@@ -74,13 +74,15 @@ Header Section Customizations
 .header_text_container {
   font-size: 10pt;
 }
+
 #headerIcons {
   position: absolute;
-  margin-top: 18px;
-  margin-left: 130px;
+  margin-top: 13px;
+  margin-left: 188px;
   z-index: 9;
   width: 90px;
 }
+
 #headerIcon {
     padding: 5px;
     
@@ -275,16 +277,6 @@ div#technologies {
     margin-bottom: 15px;
 }
 
-/* @media screen and (max-width: 1435px) {
-    .techIcon {
-    font-size:50pt;
-}
-}
-@media screen and (max-width: 1319px) {
-    .techIcon {
-    font-size:40pt;
-}
-} */
 /*
 
 Contact Section Customizations
@@ -299,6 +291,7 @@ Contact Section Customizations
   margin-top: -45px;
   margin-left: 150px;
   padding: 10px;
+  width: 92px;
 }
 
 .contactIcon {
@@ -308,6 +301,12 @@ Contact Section Customizations
 .footer {
   text-align: center;
   align-content: center;
+}
+
+@media screen and (max-width: 990px) {
+  .contactIcons {
+    margin-left: 130px;
+  }
 }
 /* 
 
