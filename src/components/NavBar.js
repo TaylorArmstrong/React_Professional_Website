@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar, NavItem, SideNav, SideNavItem, Collapsible, CollapsibleItem, Button } from 'react-materialize'
 import myLogo from '../images/myLogo.png'
 import ProfilePic from '../images/profilePic.jpg'
+import workSpaceImage from '../images/deskImage.jpg'
 
 const NavBar = () => {
     return (
@@ -17,9 +18,9 @@ const NavBar = () => {
             <SideNav 
                 trigger={<a href="/"><i className="sidenav_trigger material-icons hide-on-large-only" >menu</i></a>}
             >
-                <SideNavItem userView
+                <SideNavItem userView id='sideNavHeader'
                     user={{
-                        background: 'img/office.jpg',
+                        background: workSpaceImage,
                         image: ProfilePic,
                         name: 'Taylor Armstrong',
                         phone: '(203)-613-3326',
@@ -28,12 +29,12 @@ const NavBar = () => {
                 />
                 <SideNavItem waves href='#top'>WELCOME</SideNavItem>
                 <Collapsible>
-                    <CollapsibleItem header='PROJECTS' icon='filter_drama'>
+                    <CollapsibleItem header='PROJECTS' icon='keyboard_arrow_down'>
                         <a href='https://github.com/TaylorArmstrong'><i className='fab fa-github'></i>GitHub</a>
                     </CollapsibleItem>
                 </Collapsible>
                 <Collapsible>
-                    <CollapsibleItem header='ABOUT' icon='filter_drama'>
+                    <CollapsibleItem header='ABOUT' icon='keyboard_arrow_down'>
                         <a href='http://www.linkedin.com/in/taylorarmstrong13'><i className='fab fa-linkedin'></i>LinkedIn</a>
                         <a href='https://talent.galvanize.com/students/3092'><i className='far fa-user-circle'></i>Galvanize Talent</a>
                     </CollapsibleItem>
@@ -41,7 +42,7 @@ const NavBar = () => {
                 <SideNavItem waves href='#technologies'>TECHNOLOGIES</SideNavItem>
                 
                 <Collapsible>
-                    <CollapsibleItem header='CONTACT' icon='filter_drama'>
+                    <CollapsibleItem header='CONTACT' icon='keyboard_arrow_down'>
                         <a className='collapsible-body' title='Call Taylor @ (203)-613-3326' id='Cell Number' href='tel:1-203-613-3326'>(203)-613-3326<i className='material-icons'>phone</i></a>
                         <a className='collapsible-body' title='E-Mail Taylor @ TArmstrong1327@gmail.com' id='E-mail' href='mailto:TArmstrong1327@gmail.com'>TArmstrong1327@gmail.com</a>
                     </CollapsibleItem>
