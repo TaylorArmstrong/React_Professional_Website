@@ -25,17 +25,24 @@ nav {
 }
 
 #personalLogo {
-  position: absolute;
+  position: fixed;
   margin-top: 10px;
   margin-left: 50%;
   width: 30px;
   z-index: 3;
 }
+
 @media screen and (min-width: 993px) {
 #personalLogo {
   margin-left: 10px;
 }
 }
+
+.white-text {
+  text-shadow: 3px 3px 10px rgb(9, 9, 9);
+  /* background-color: rgba(101, 93, 75, 0.495); */
+}
+
 
 /*
 

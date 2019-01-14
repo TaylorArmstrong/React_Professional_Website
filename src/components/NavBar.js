@@ -20,7 +20,7 @@ const NavBar = () => {
             <SideNav 
                 trigger={<a href="/"><i className="sidenav_trigger material-icons hide-on-large-only" >menu</i></a>}
             >
-                <SideNavItem userView id='sideNavHeader'
+                <SideNavItem userView
                     user={{
                         background: workSpaceImage,
                         image: ProfilePic,
