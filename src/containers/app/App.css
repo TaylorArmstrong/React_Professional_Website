@@ -6,7 +6,7 @@ NavBar Customizations
 nav {
   background-color: #2591DD;
   position: fixed;
-  z-index: 10;
+  z-index: 1;
 }
 
 .nav_logo {
@@ -17,10 +17,14 @@ nav {
   width: 20px;
 }
 
+
+
 .sidenav_trigger {
-  position: relative;
+  position: absolute;
   margin-top: 10px;
   margin-left: 10px;
+  z-index: 3;
+  color:white;
 }
 /*
 

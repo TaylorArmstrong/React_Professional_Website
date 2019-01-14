@@ -13,9 +13,9 @@ const NavBar = () => {
                 <NavItem href='#technologies' >TECHNOLOGIES</NavItem>
                 <NavItem href='#contact' >CONTACT</NavItem>
             </Navbar>
-            
-            <SideNav
-                trigger={<nav className='hide-on-large-only'><a href="#"><i class="material-icons">menu</i></a></nav>}
+            <nav className='hide-on-large-only'></nav>
+            <SideNav 
+                trigger={<a href="/"><i className="sidenav_trigger material-icons hide-on-large-only" >menu</i></a>}
             >
                 <SideNavItem userView
                     user={{
