@@ -1,0 +1,297 @@
+/*
+
+NavBar Customizations
+
+*/
+nav {
+  background-color: #2591DD;
+  position: fixed;
+  z-index: 10;
+}
+
+.nav_logo {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 20px;
+  width: 20px;
+}
+/*
+
+Header Section Customizations
+
+*/
+#headerIcons {
+  position: absolute;
+  width:55px;
+  margin-top: -61px;
+  margin-left: 381px;
+  z-index: 9;
+}
+#headerIcon {
+    padding: 3px;
+
+}
+
+.header_text_container {
+  margin-left: 60px;
+  margin-top: 235px;
+}
+
+.header_text {
+  color: white;
+}
+
+@media screen and (max-width: 525px) {
+.header_text_container {
+  font-size: 10pt;
+}
+#headerIcons {
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 130px;
+  z-index: 9;
+  width: 90px;
+}
+#headerIcon {
+    padding: 5px;
+    
+}
+}
+
+#parallax1 {
+  width: 80%;
+}
+
+/*
+
+Project Section Customizations
+
+*/
+
+#projectGitIcon {
+  position: absolute;
+  margin-left: 172px;
+  margin-top: -50px;
+}
+
+#logoTRU {
+  width: 100%;
+  height: 100%;
+  float:right;
+}
+
+p.projectText {
+  color: black;
+  font-size: 12px;
+  margin: auto;
+  text-align: center;
+}
+
+#ProjectCard {
+  width: 400px;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+/*
+
+About Section Customizations
+
+*/
+
+#about {
+  background-color: white;
+  padding-left: 25px;
+  margin-bottom: 60px;
+}
+
+#aboutIcons {
+  position: absolute;
+  margin-left: 113px;
+  margin-top: -38px;
+}
+
+.aboutIcon {
+  margin-left: 2px;
+}
+
+.aboutTextContainer {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 250px;
+  align-content: center;
+}
+
+.aboutText {
+  text-align: left;
+}
+
+
+#profilePic {
+  border: 3px solid #2591DD;
+  border-radius: 80%;
+  height: auto;
+  width: 20%;
+  margin-top: -70px;
+  margin-left: 141px;
+}
+
+.resumeButton {
+    color: #2591DD;
+    background-color: inherit;
+    border: 1.5px solid #2591DD;
+    border-radius: 30px;
+    padding: 2% 9%;
+    font-size: 16px;
+    transition-duration: 2s;
+    cursor: pointer;
+    text-align: center;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.resumeButton:hover {
+    background-color: #00efb3;
+    border: 1.5px solid;
+    border-color: #00efb3;
+    color: #09293d;
+}
+
+.medButton {
+  background-color: #1f46ca;
+  width: 108px;
+  font-size: 8pt;
+  position: absolute;
+  margin-top: -18px;
+  margin-left: -1px;
+}
+
+p.medical {
+  position: absolute;
+  margin-top: -26px;
+  margin-left: -26px;
+}
+
+p.backgroundWord {
+ position: absolute;
+  margin-top: -11px;
+  margin-left: -26px;
+}
+
+.medIconForButton {
+  position: absolute;
+  margin-top: -24px;
+  margin-left: 32px;
+}
+
+.medButton:hover {
+  border-color: black;
+  background-color: red;
+  color: black;
+}
+
+p.modal-text {
+  color: black;
+  font-size: 14px;
+}
+
+ @media screen and (max-width: 1286px) {
+    #about {
+      margin-bottom: 130px;
+    }
+  }
+ @media screen and (max-width: 1328px) {
+    #profilePic {
+      margin-left: 0px;
+    }
+  }
+ @media screen and (max-width: 858px) {
+  #profilePic {
+    margin-top: 28px;
+    display: inline-block;
+  }
+  #about {
+    margin-bottom: 160px;
+  }
+  .resumeButton {
+    width: 118px;
+  }
+  .aboutTextContainer {
+  float: right;
+  margin-top: -200px;
+  padding: 50px;
+  width: 75%;
+}
+}
+
+/*
+
+Technologies Section Customizations
+
+*/
+div#technologies {
+  background-color: #2591DD;
+  padding-left: 25px;
+}
+
+.techIcon:hover {
+  border-color: #00efb3;
+  color: #096d54;
+}
+
+.techIcon {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+/* @media screen and (max-width: 1435px) {
+    .techIcon {
+    font-size:50pt;
+}
+}
+@media screen and (max-width: 1319px) {
+    .techIcon {
+    font-size:40pt;
+}
+} */
+/*
+
+Contact Section Customizations
+
+*/
+#contact {
+  padding-left: 25px;
+}
+
+.contactIcons {
+  position: relative;
+  margin-top: -45px;
+  margin-left: 150px;
+  padding: 10px;
+}
+
+.contactIcon {
+  margin-right: 5px;
+}
+
+.footer {
+  text-align: center;
+  align-content: center;
+}
+/* 
+
+Multiple Sections
+
+*/
+
+#builtInLogo {
+  height: 13px;
+  width: auto;
+}
+
+/* h3 {
+  text-align: left;
+} */

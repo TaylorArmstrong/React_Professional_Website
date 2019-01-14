@@ -3,6 +3,7 @@ import { Navbar } from 'react-materialize'
 
 const NavBar = () => {
     return (
+        <div>
             <Navbar>
                 <div>
                     <ul id='mobile-demo' className='NavBar left hide-on-med-and-down'>
@@ -28,7 +29,7 @@ const NavBar = () => {
                         </li>
                     </ul>
                 </div>
-                <ul id='mobile-demo' className='sidenav hide-on-large-only collapsible'>
+                <ul id='mobile-demo' className='sidenav hide-on-large-only '>
                     <li><a className='nav-link' href='#top'>WELCOME</a></li>
                     <li>
                         <a className='nav-link collapsible-header' href='#projects'>PROJECTS</a>
@@ -51,6 +52,7 @@ const NavBar = () => {
                     </li>
                 </ul>
             </Navbar>
+        </div>
     )
 }
 
