@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax"
 const Header = () => {
     return (
         <Parallax bgImage={require('../images/santaCruzBeachBanner.jpg')} strength={500}>
-            <div style={{ height: 250 }}>
+            <div >
                 <div className='row container header_text_container'>
                     <h2 className='header_text'>Taylor Armstrong</h2>
                     <div className='container' id='headerIcons'>

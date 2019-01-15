@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, NavItem, SideNav, SideNavItem, Collapsible, CollapsibleItem, Button } from 'react-materialize'
+import { Navbar, NavItem, SideNav, SideNavItem, Collapsible, CollapsibleItem } from 'react-materialize'
 import myLogo from '../images/myLogo.png'
 import ProfilePic from '../images/profilePic.jpg'
 import workSpaceImage from '../images/deskImage.jpg'
@@ -15,7 +15,7 @@ const NavBar = () => {
                 <NavItem href='#technologies' >TECHNOLOGIES</NavItem>
                 <NavItem href='#contact' >CONTACT</NavItem>
             </Navbar>
-            <img src={myLogo} id='personalLogo' />
+            <img src={myLogo} id='personalLogo' alt='myLogo'/>
             <nav className='hide-on-large-only'></nav>
             <SideNav 
                 trigger={<a href="/"><i className="sidenav_trigger material-icons hide-on-large-only" >menu</i></a>}

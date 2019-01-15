@@ -70,6 +70,8 @@ Header Section Customizations
   color: white;
 }
 
+
+
 @media screen and (max-width: 525px) {
 .header_text_container {
   font-size: 10pt;
@@ -89,9 +91,6 @@ Header Section Customizations
 }
 }
 
-#parallax1 {
-  width: 80%;
-}
 
 /*
 
@@ -294,7 +293,7 @@ Contact Section Customizations
   margin-top: -45px;
   margin-left: 150px;
   padding: 10px;
-  width: 92px;
+  width: 95px;
 }
 
 .contactIcon {
