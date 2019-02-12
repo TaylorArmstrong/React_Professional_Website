@@ -11,13 +11,13 @@ const Projects = () => {
                     {!x.url ? 
                         <div>
                             <br /> 
-                            <em><b> Languages: </b><br />{x.languages}</em><br /><br />
-                            <u><b>GitHub Repository</b></u><br /><br /><a href={x.github}>{x.github}</a><br /><br /><br />
+                            <em>{x.languages}</em><br /><br />
+                            <u><b>GitHub Repository</b></u><br /><br /><a href={x.github}>{x.github}</a><br /><br /><br /><br />
                         </div> 
                             : 
                             <div>
                                 <div> 
-                                    <em><b> Languages: </b>{x.languages}</em><br /><br />
+                                    <em>{x.languages}</em><br /><br />
                                     <u><b>GitHub Repository</b></u><br /><a href={x.github}>{x.github}</a><br /><br />
                                 </div>
                                 <div>

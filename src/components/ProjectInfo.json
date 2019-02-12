@@ -1,11 +1,11 @@
 [
     {
-        "title": "HikingInTheRain",
-        "description": "Simple application to acquire weather conditions at the trailhead of potential hikes. This app will provide alternative search options for events near you if no hikes match your search criteria.",
-        "languages": "Materialize, JavaScript, Axios",
-        "github": "https://github.com/TaylorArmstrong/quarterOneProject",
-        "url": "http://hikingintherain.surge.sh/",
-        "demo": "https://drive.google.com/open?id=1TyonOtokgTOWErNVh1_pVD63f60P29vF"
+        "title": "REPSY",
+        "description": "",
+        "languages": "React Native, Native Base, React Router, PostgreSQL, Node.js, Knex.js, Timekit.io, JavaScript",
+        "github": "",
+        "url": "",
+        "demo": ""
     },
     {
         "title": "VolClock",
@@ -14,6 +14,14 @@
         "github": "https://github.com/TaylorArmstrong/VolClock",
         "url": "https://voltrack.herokuapp.com/",
         "demo": "https://drive.google.com/file/d/1Nn_3ALuvU4OAtN59UJcaMD943qiK0cwV/view?usp=sharing"
+    },
+    {
+        "title": "HikingInTheRain",
+        "description": "Simple application to acquire weather conditions at the trailhead of potential hikes. This app will provide alternative search options for events near you if no hikes match your search criteria.",
+        "languages": "Materialize, JavaScript, Axios",
+        "github": "https://github.com/TaylorArmstrong/quarterOneProject",
+        "url": "http://hikingintherain.surge.sh/",
+        "demo": "https://drive.google.com/open?id=1TyonOtokgTOWErNVh1_pVD63f60P29vF"
     },
     {
         "title": "React Inbox",
