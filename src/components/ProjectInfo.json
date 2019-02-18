@@ -9,7 +9,7 @@
     },
     {
         "title": "VolClock",
-        "description": "An application to track shifts, view upcoming schedule and contact supervisors for the TRU thrift store in Boulder, CO.",
+        "description": "An app to track shifts, view upcoming schedule and contact supervisors for the TRU thrift store in Boulder, CO.",
         "languages": "Node.js, Knex.js, PostgreSQL, Bootstrap, JavaScript",
         "github": "https://github.com/TaylorArmstrong/VolClock",
         "url": "https://voltrack.herokuapp.com/",
@@ -17,16 +17,10 @@
     },
     {
         "title": "HikingInTheRain",
-        "description": "Simple application to acquire weather conditions at the trailhead of potential hikes. This app will provide alternative search options for events near you if no hikes match your search criteria.",
+        "description": "Simple app to acquire weather conditions at the trailhead of potential hikes. This app will provide alternative search options for events near you if no hikes match your search criteria.",
         "languages": "Materialize, JavaScript, Axios",
         "github": "https://github.com/TaylorArmstrong/quarterOneProject",
         "url": "http://hikingintherain.surge.sh/",
         "demo": "https://drive.google.com/open?id=1TyonOtokgTOWErNVh1_pVD63f60P29vF"
-    },
-    {
-        "title": "React Inbox",
-        "description": "A full stack app allowing individuals to read, select, label and delete messages from an e-mail inbox.",
-        "languages": "Node.js, React, Bootstrap, Knex.js, PostgreSQL, RESTful design, JavaScript",
-        "github": "https://github.com/TaylorArmstrong/react-inbox"
     }
 ]
