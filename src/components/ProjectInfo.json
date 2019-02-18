@@ -1,11 +1,11 @@
 [
     {
         "title": "REPSY",
-        "description": "",
-        "languages": "React Native, Native Base, React Router, PostgreSQL, Node.js, Knex.js, Timekit.io, JavaScript",
-        "github": "",
+        "description": "App facilitating Doctors to schedule appointments with Pharma Reps & Speakers to discuss treatment options for specific conditions. Provides efficacy, safety, and guidelines for each treatment.",
+        "languages": "React Native, Native Base, Flux Router, PostgreSQL, Node.js, Knex.js, Timekit.io, JavaScript",
+        "github": "https://github.com/TaylorArmstrong/repsy",
         "url": "",
-        "demo": ""
+        "demo": "https://drive.google.com/open?id=1WMo91NJJB1WUD4cj9yrZqDrUKvAFLdWE"
     },
     {
         "title": "VolClock",
