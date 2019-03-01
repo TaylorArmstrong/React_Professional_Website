@@ -1,25 +1,24 @@
 import React from 'react'
 import ProjectInfo from './ProjectInfo.json'
+import urlImg from '../images/url-link.png'
+
 
 const Projects = () => {
     return (
         <div id='projects' className='center'>
             {ProjectInfo.map(x =>
-            <div key={x.title} style={{width: 415}} className='tj bg-light-blue br3 pa3 ma2 dib bw2 shadow-5 small' id='ProjectCard'>
-                <div className='tc f4 lh-copy'><b><u>{x.title}</u></b><br /></div>
-                {x.description}
-                    <div>
-                        <br /> 
-                        <em>{x.languages}</em><br /><br />
-                        <i className='fab fa-github' id='headerIcon' /><a href={x.github}>{x.github}</a><br /><br /><br />
-                    {!x.url 
-                    ? '' 
-                    :<div>
-                        <u><b>Url:</b></u> <a href={x.url}> {x.url}</a> <br /> <br />
-                    </div>
-                    }
-                    </div>     
-                {!x.demo ? '' : <div className='tc'><a href={x.demo}><u><b>Demo Video</b></u></a></div>}
+            <div key={x.title} className='tj bg-light-blue br3 pa3 ma2 dib bw2 shadow-5 small' id='ProjectCard'>
+                <div className='tc f4 lh-copy'>
+                    <b><u>{x.title}</u></b><br/>
+                    {!x.demo ? '' : <a className='tc projectIcons' href={x.demo}><i className="fas fa-video"></i></a>}
+                    <a href={x.github}><i className='fab fa-github projectIcons' id='headerIcon' /></a>
+                    {!x.url ? '' : <a className='projectIcons' href={x.url}><img alt='URL' src={urlImg} style={{ width: 20, marginLeft: 3 }} /></a>}
+                </div>
+                {x.description.length < 120 ? <div><br />{x.description}<br /><br /></div> :<div>{x.description}</div> }
+                <div>
+                    <br />
+                    <em>{x.languages}</em><br /><br />
+                </div>
             </div>
             )}
         </div>

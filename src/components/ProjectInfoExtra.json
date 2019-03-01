@@ -1,9 +1,0 @@
-
-[ 
-    {
-        "title": "React Inbox",
-        "description": "A full stack app allowing individuals to read, select, label and delete messages from an e-mail inbox.",
-        "languages": "Node.js, React, Bootstrap, Knex.js, PostgreSQL, RESTful design, JavaScript",
-        "github": "https://github.com/TaylorArmstrong/react-inbox"
-    }
-]

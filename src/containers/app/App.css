@@ -56,9 +56,9 @@ Header Section Customizations
   margin-left: 381px;
   z-index: 1;
 }
+
 #headerIcon {
     padding: 3px;
-
 }
 
 .header_text_container {
@@ -98,10 +98,9 @@ Project Section Customizations
 
 */
 
-#projectGitIcon {
-  position: absolute;
-  margin-left: 172px;
-  margin-top: -50px;
+.projectIcons {
+  margin-left: 10px;
+  margin-right: 10px
 }
 
 #logoTRU {
@@ -122,6 +121,7 @@ p.projectText {
   margin-right: 30px;
   margin-top: 15px;
 }
+
 
 /*
 

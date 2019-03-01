@@ -8,7 +8,6 @@ const NavBar = () => {
     return (
         <div>
             <Navbar className='hide-on-med-and-down' right>
-                
                 <NavItem href='#top' >WELCOME</NavItem>
                 <NavItem href='#projects' >PROJECTS</NavItem>
                 <NavItem href='#about' >ABOUT</NavItem>

@@ -22,5 +22,18 @@
         "github": "https://github.com/TaylorArmstrong/quarterOneProject",
         "url": "http://hikingintherain.surge.sh/",
         "demo": "https://drive.google.com/open?id=1TyonOtokgTOWErNVh1_pVD63f60P29vF"
+    },
+    {
+        "title": "Django Blog",
+        "description": "Simple blog app to create, login, update and delete users. Once logged in, users are able to create, edit, delete and view blog posts. Includes user authentication for post edit/delete features.",
+        "languages": "Django, Python",
+        "github": "https://github.com/TaylorArmstrong/Django_Blog/tree/master"
+    },
+    {
+        "title": "React Inbox",
+        "description": "A full stack app allowing individuals to read, select, label and delete messages from an e-mail inbox.",
+        "languages": "Node.js, React, Bootstrap, Knex.js, PostgreSQL, RESTful design, JavaScript",
+        "github": "https://github.com/TaylorArmstrong/react-inbox"
     }
+
 ]
