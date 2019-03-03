@@ -1,3 +1,7 @@
+p.textHeaders {
+  margin-bottom: 90;
+}
+
 /*
 
 NavBar Customizations
@@ -49,12 +53,25 @@ nav {
 Header Section Customizations
 
 */
-#headerIcons {
-  position: absolute;
+.headerSection {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  height: 50vh
+}
+
+.particles-js {
+  background-image: url("../../images/santaCruzBeachBanner.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerIcons {
+  position: relative;
   width:55px;
   margin-top: -61px;
-  margin-left: 381px;
-  z-index: 1;
+  margin-left: 386px;
 }
 
 #headerIcon {
@@ -62,8 +79,10 @@ Header Section Customizations
 }
 
 .header_text_container {
-  margin-left: 60px;
-  margin-top: 235px;
+  position: relative;
+  margin-top: -183px;
+  margin-left: 32px;
+  height: 100%
 }
 
 .header_text {
@@ -71,24 +90,49 @@ Header Section Customizations
 }
 
 
-
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 475px) {
 .header_text_container {
   font-size: 10pt;
 }
 
-#headerIcons {
-  position: absolute;
-  margin-top: 13px;
-  margin-left: 188px;
-  z-index: 9;
+.headerIcons {
+  position: relative;
   width: 90px;
+  margin-top: 23px;
+  margin-left: 86px;
 }
 
 #headerIcon {
-    padding: 5px;
-    
+    padding: 5px;  
 }
+
+.headerDescription{
+  position: relative;
+  margin-top: -58px;
+  margin-left: 10px;
+}
+}
+
+@media screen and (max-width: 375px) {
+.header_text_container {
+  font-size: 10pt;
+  top: -30px;
+  left: -13px;
+}
+
+.headerIcons {
+  position: relative;
+  margin-top: -113px;
+  margin-left: 140px;
+  width: 45px;
+}
+
+.headerDescription{
+  position: relative;
+  margin-top: 50px;
+  margin-left: 4px;
+}
+
 }
 
 
@@ -121,7 +165,6 @@ p.projectText {
   margin-right: 30px;
   margin-top: 15px;
 }
-
 
 /*
 

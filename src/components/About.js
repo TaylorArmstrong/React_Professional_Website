@@ -7,9 +7,9 @@ import Resume from '../docs/resume.pdf'
 
 const About = () => {
     return (
-        <div id='about'>
+        <div id='about' >
             <div>
-                <h3>About</h3>
+                <h3 className='textHeaders'>About</h3>
                 <div id='aboutIcons'>
                     <a href='http://www.linkedin.com/in/taylorarmstrong13' title='LinkedIn'><i className='fab fa-github aboutIcon' ></i></a>
                     <a id='builtInColoradoAboutIcon' href='https://www.builtincolorado.com/member/tarmstrong1327/112684' title='builtincolorado'><img src={builtIN} alt='loading' className='responsive-img aboutIcon' id='builtInLogo' /></a>
