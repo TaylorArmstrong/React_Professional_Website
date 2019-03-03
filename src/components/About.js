@@ -31,7 +31,7 @@ const About = () => {
             </Modal>
             <img id='profilePic' alt='loading' src={ProfilePic} className='responsive-img' title='Taylor Armstrong' />
             <div className='aboutTextContainer'>
-                <p className='aboutText'>Dedicated Integrated Physiology graduate with studies in Software Engineering, Biotechnology, Medicine and Emergency Care. Experience in troubleshooting and streamlining the design and implementation of mechanical & electrical devices. Providing an understanding of data and blueprints so companies can increase their efficiencies.</p>
+                <p className='aboutText'>Tenacious software engineer with a passion for efficient code, responsive design and problem-solving. My goal is to help companies build and develop software platforms that provide reliable user experiences.</p>
                 <a id='resume' href={Resume}><button className='resumeButton'><i className='far fa-file-pdf'></i>Resume</button></a>
             </div>
         </div>
