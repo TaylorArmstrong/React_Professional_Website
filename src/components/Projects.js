@@ -5,7 +5,7 @@ import urlImg from '../images/url-link.png'
 
 const Projects = () => {
     return (
-        <div id='projects' className='center'>
+        <div className='center'>
             {ProjectInfo.map(x =>
             <div key={x.title} className='tj bg-light-blue br3 pa3 ma2 dib bw2 shadow-5 small' id='ProjectCard'>
                 <div className='tc f4 lh-copy'>
