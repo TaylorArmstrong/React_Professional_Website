@@ -5,15 +5,15 @@
         "languages": "React Native, Native Base, Flux Router, PostgreSQL, Node.js, Knex.js, Timekit.io, JavaScript",
         "github": "https://github.com/TaylorArmstrong/repsy",
         "url": "",
-        "demo": "https://drive.google.com/open?id=1WMo91NJJB1WUD4cj9yrZqDrUKvAFLdWE"
+        "demo": "https://www.youtube.com/watch?v=uJ6ERC5hAp4&t=38s"
     },
     {
         "title": "VolClock",
-        "description": "An app to track shifts, view upcoming schedule and contact supervisors for the TRU thrift store in Boulder, CO.",
+        "description": "An app to track shifts, view upcoming schedule and contact supervisors for the TRU thrift store in Boulder, CO. ----- Link Login: 1234",
         "languages": "Node.js, Knex.js, PostgreSQL, Bootstrap, JavaScript",
         "github": "https://github.com/TaylorArmstrong/VolClock",
         "url": "https://voltrack.herokuapp.com/",
-        "demo": "https://drive.google.com/file/d/1Nn_3ALuvU4OAtN59UJcaMD943qiK0cwV/view?usp=sharing"
+        "demo": "https://www.youtube.com/watch?v=oq3xZ6roOOU&t=9s"
     },
     {
         "title": "HikingInTheRain",
