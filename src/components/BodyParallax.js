@@ -6,7 +6,8 @@ const BodyParallax = () => {
         <Parallax
             className='bodyParallax' 
             bgImage={require('../images/redRocksOutsideBanner.jpg')} 
-            strength={500}>
+            strength={500}
+            id='bodyParallax'>
             <div style={{ height: 400 }}>
             </div>
         </Parallax >
