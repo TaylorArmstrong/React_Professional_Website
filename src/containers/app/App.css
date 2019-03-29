@@ -95,8 +95,8 @@ Project Section Customizations
 .scrollSection { 
     overflow: scroll;
     height: 550px;
-    margin-top: 35px;
-    padding-top: 50px;
+    margin-top: -90px;
+    padding-top: 90px;
 }
 
 .projectIcons {
