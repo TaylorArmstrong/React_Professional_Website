@@ -7,8 +7,10 @@ const BodyParallax = () => {
             className='bodyParallax' 
             bgImage={require('../images/redRocksOutsideBanner.jpg')} 
             strength={500}
-            id='bodyParallax'>
-            <div style={{ height: 400 }}>
+            clipath='inherit'>
+            <div 
+                style={{ height: 800 }}
+                className='bodyParaDiv'>
             </div>
         </Parallax >
     )
